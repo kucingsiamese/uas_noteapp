@@ -59,4 +59,5 @@ class DefaultFirebaseOptions {
     projectId: 'uas-noteapp',
     storageBucket: 'uas-noteapp.firebasestorage.app',
   );
+
 }
