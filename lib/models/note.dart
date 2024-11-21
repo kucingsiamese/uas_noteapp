@@ -3,12 +3,14 @@ class Note {
   String userId;
   String title;
   String content;
+  int? color;
 
   Note({
     this.id,
     required this.userId,
     required this.title,
     required this.content,
+    this.color,
   });
 
   factory Note.fromFirestore(Map<String, dynamic> data, String id) {
@@ -17,6 +19,7 @@ class Note {
       userId: data['userId'],
       title: data['title'],
       content: data['content'],
+      color: data['color'] as int?,
     );
   }
 
@@ -25,6 +28,7 @@ class Note {
       'userId': userId,
       'title': title,
       'content': content,
+      'color': color,
     };
   }
 }
