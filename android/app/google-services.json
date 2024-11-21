@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "675798992414",
+    "project_id": "uas-noteapp",
+    "storage_bucket": "uas-noteapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:675798992414:android:72f2aecf109da11b26500f",
+        "android_client_info": {
+          "package_name": "com.example.uas_noteapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbaE-NbVMYpMiZD_UKhL_h8uPdAP1U_qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
